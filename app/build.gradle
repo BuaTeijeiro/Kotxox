@@ -34,3 +34,13 @@ application {
     // Define the main class for the application.
     mainClass = 'edu.kotxox.App'
 }
+
+jar {
+    manifest {
+        attributes 'Main-Class' : 'edu.kotxox.App',
+                   'Package-Title' : 'kotxox',
+                   'Package-Version': '1.0',
+                   'Package-Vendor' : 'david Bua',
+                   'Specification-Title' : 'Examen Cotxox'
+    }
+}
